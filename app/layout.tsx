@@ -23,6 +23,20 @@ export const metadata: Metadata = {
   title: "Alps Experience | Premium Ski Packages in Morzine, France",
   description: "Premium U.S.-friendly ski & snowboard packages in Morzine, France. On-the-ground concierge, curated experiences across 650km of Portes du Soleil.",
   keywords: ["Morzine", "Portes du Soleil", "ski packages", "snowboard", "France", "alpine", "luxury", "concierge"],
+  icons: {
+    icon: [
+      {
+        url: "/favicon.jpg",
+        type: "image/jpeg",
+      },
+    ],
+    apple: [
+      {
+        url: "/favicon.jpg",
+        type: "image/jpeg",
+      },
+    ],
+  },
   openGraph: {
     title: "Alps Experience",
     description: "Premium ski packages in Morzine with on-the-ground concierge service",
