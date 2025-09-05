@@ -12,7 +12,7 @@ export default function AboutPage() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2426&q=80')`
+            backgroundImage: `url('/hero-background.jpg')`
           }}
         />
         <div className="absolute inset-0 bg-pdse-navy/70"></div>

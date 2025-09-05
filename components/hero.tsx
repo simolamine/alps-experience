@@ -10,7 +10,7 @@ export function Hero() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2426&q=80')`
+            backgroundImage: `url('/hero-background.jpg')`
           }}
         />
       </div>
@@ -44,7 +44,7 @@ export function Hero() {
               size="lg" 
               variant="outline" 
               asChild
-              className="border-white text-white hover:bg-white hover:text-pdse-navy text-lg px-8 py-4 h-auto font-semibold"
+              className="border-white text-pdse-navy hover:bg-gray-100 text-lg px-8 py-4 h-auto font-semibold"
             >
               <Link href="/contact">Talk to a Concierge</Link>
             </Button>
