@@ -30,8 +30,15 @@ const trustIndicators = [
 
 export function WhyUs() {
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4">
+    <section className="py-20 relative bg-gray-50">
+      {/* Subtle Alpine Background */}
+      <div 
+        className="absolute inset-0 opacity-5 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url('https://images.unsplash.com/photo-1609137144813-7d9921338f24?ixlib=rb-4.0.3&auto=format&fit=crop&w=2426&q=80')`
+        }}
+      />
+      <div className="relative z-10 container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-pdse-navy mb-6">
             Why Choose Alps Experience?

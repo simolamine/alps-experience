@@ -50,8 +50,16 @@ export default function PackagesPage() {
     <CurrencyProvider>
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <section className="bg-pdse-navy text-white py-20">
-          <div className="container mx-auto px-4">
+        <section className="relative bg-pdse-navy text-white py-20 overflow-hidden">
+          {/* Alpine Chalet Background */}
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-25"
+            style={{
+              backgroundImage: `url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2426&q=80')`
+            }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-pdse-navy/80 to-pdse-navy/90"></div>
+          <div className="relative z-10 container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="font-serif text-4xl md:text-6xl font-bold mb-6">
                 Ski Packages
