@@ -87,3 +87,34 @@ npm run lint
 **✅ Your dev server should now be running on port 3005!**
 
 You can now see the updated button styling for "Talk to a Concierge" - it should now have the same solid background appearance as "Plan Your Trip" for better text visibility.
+
+#Git initialisation:
+git init
+
+#Update config with user name and emai:
+git config user.name "Simo Lamine"
+git config user.email "simolamine@gmail.com"
+
+#Add the repo:
+git add .
+
+#Commit:
+git commit -m "Initial commit: Alps Experience website with complete rebrand and updated contact email"
+
+#Which gh?:
+which gh
+gh repo create alps-experience --public --description "Premium ski booking platform for Alps Experience in Morzine, France"
+#✓ Created repository simolamine/alps-experience on github.com https://github.com/simolamine/alps-experience
+
+#A new release of gh is available: 2.74.1 → 2.78.0
+#To upgrade, run: brew upgrade gh
+#https://github.com/cli/cli/releases/tag/v2.78.0
+
+# define the remote origin
+git remote add origin https://github.com/simolamine/alps-experience.git
+
+# Branch -M main
+git branch -M main
+
+Push to origin from main
+git push -u origin main
